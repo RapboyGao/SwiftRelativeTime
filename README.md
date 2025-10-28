@@ -82,6 +82,7 @@ To add support for additional languages:
 ## Supported Relative Time Formats
 
 ### Past Time
+
 - `justNow` - For times within the last few seconds
 - `aFewSecondsAgo` - For times between 5-59 seconds ago
 - `aMinuteAgo` - For exactly 1 minute ago
@@ -96,6 +97,7 @@ To add support for additional languages:
 - `yearsAgo(Int)` - For multiple years ago
 
 ### Future Time
+
 - `inAFewSeconds` - For times within the next few seconds
 - `inAMinute` - For exactly 1 minute from now
 - `inMinutes(Int)` - For multiple minutes from now
@@ -111,7 +113,6 @@ To add support for additional languages:
 ## Requirements
 
 - Swift 6.0 or later
-- iOS 13.0+, macOS 10.15+, watchOS 6.0+, tvOS 13.0+
 
 ## License
 

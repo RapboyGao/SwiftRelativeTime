@@ -12,7 +12,7 @@ import SwiftUI
 
         private var timer: Publishers.Autoconnect<Timer.TimerPublisher> {
             Timer
-                .publish(every: 0.2, on: .main, in: .common)
+                .publish(every: 1, on: .main, in: .common)
                 .autoconnect()
         }
 
@@ -28,9 +28,9 @@ import SwiftUI
             }
             let languageBundles =
                 contents
-                .filter { $0.hasSuffix(".lproj") }
-                .map { $0.replacingOccurrences(of: ".lproj", with: "") }
-                .sorted()
+                    .filter { $0.hasSuffix(".lproj") }
+                    .map { $0.replacingOccurrences(of: ".lproj", with: "") }
+                    .sorted()
             return languageBundles
         }()
 

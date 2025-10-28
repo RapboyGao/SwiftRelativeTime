@@ -127,10 +127,9 @@ enum I18n {
     ]
 
     public static func languageBundle(language: String? = nil) -> Bundle {
-        guard let language = language else {
-            return .module
-        }
-        guard let bundlePath = Bundle.module.resourcePath else {
+        guard let language = language,
+            let bundlePath = Bundle.module.resourcePath
+        else {
             return .module
         }
         let languageBundlePath = "\(bundlePath)/\(language).lproj"
@@ -152,18 +151,11 @@ enum I18n {
         )
     }
 
-    public static func localizedInAFewSeconds(in language: String? = nil) -> String {
-        let bundle = languageBundle(language: language)
-        return NSLocalizedString(
-            keyForInAFewSeconds, tableName: nil, bundle: bundle, comment: commentForInAFewSeconds
-        )
-    }
-
     public static func localizedString(minutes: Int, in language: String? = nil) -> String {
         let bundle = languageBundle(language: language)
         if minutes == 1 {
             return NSLocalizedString(
-                keyForInAMinute, tableName: nil, bundle: bundle, comment: commentForInAMinute
+                keyForAMinuteAgo, tableName: nil, bundle: bundle, comment: commentForAMinuteAgo
             )
         } else {
             return NSLocalizedString(
@@ -177,7 +169,7 @@ enum I18n {
         let bundle = languageBundle(language: language)
         if hours == 1 {
             return NSLocalizedString(
-                keyForInAnHour, tableName: nil, bundle: bundle, comment: commentForInAnHour
+                keyForAnHourAgo, tableName: nil, bundle: bundle, comment: commentForAnHourAgo
             )
         } else {
             return NSLocalizedString(
@@ -191,7 +183,7 @@ enum I18n {
         let bundle = languageBundle(language: language)
         if days == 1 {
             return NSLocalizedString(
-                keyForInADay, tableName: nil, bundle: bundle, comment: commentForInADay
+                keyForADayAgo, tableName: nil, bundle: bundle, comment: commentForADayAgo
             )
         } else {
             return NSLocalizedString(
@@ -205,7 +197,7 @@ enum I18n {
         let bundle = languageBundle(language: language)
         if months == 1 {
             return NSLocalizedString(
-                keyForInAMonth, tableName: nil, bundle: bundle, comment: commentForInAMonth
+                keyForAMonthAgo, tableName: nil, bundle: bundle, comment: commentForAMonthAgo
             )
         } else {
             return NSLocalizedString(
@@ -219,7 +211,7 @@ enum I18n {
         let bundle = languageBundle(language: language)
         if years == 1 {
             return NSLocalizedString(
-                keyForInAYear, tableName: nil, bundle: bundle, comment: commentForInAYear
+                keyForAYearAgo, tableName: nil, bundle: bundle, comment: commentForAYearAgo
             )
         } else {
             return NSLocalizedString(
@@ -227,6 +219,13 @@ enum I18n {
             )
             .replacingOccurrences(of: "{{years}}", with: "\(years)")
         }
+    }
+
+    public static func localizedInAFewSeconds(in language: String? = nil) -> String {
+        let bundle = languageBundle(language: language)
+        return NSLocalizedString(
+            keyForInAFewSeconds, tableName: nil, bundle: bundle, comment: commentForInAFewSeconds
+        )
     }
 
     // 未来时间的本地化方法

@@ -143,10 +143,6 @@ import Testing
     let contents = try fileManager.contentsOfDirectory(atPath: bundlePath)
     let languageBundles = contents.filter { $0.hasSuffix(".lproj") }
 
-    guard !languageBundles.isEmpty else {
-        return
-    }
-
     print("找到以下语言包: \(languageBundles)")
 
     // 对于每种语言，测试翻译是否正确

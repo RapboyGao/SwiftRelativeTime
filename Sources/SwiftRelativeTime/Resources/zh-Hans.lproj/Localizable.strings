@@ -1,0 +1,68 @@
+/* Just now */
+"@just.now" = "刚刚";
+
+/* A few seconds ago */
+"@a.few.seconds.ago" = "几秒前";
+
+/* A minute ago */
+"@a.minute.ago" = "一分钟前";
+
+/* {{minutes}} minutes ago */
+"@{{minutes}}.minutes.ago" = "{{minutes}}分钟前";
+
+/* An hour ago */
+"@an.hour.ago" = "一小时前";
+
+/* {{hours}} hours ago */
+"@{{hours}}.hours.ago" = "{{hours}}小时前";
+
+/* A day ago */
+"@a.day.ago" = "一天前";
+
+/* {{days}} days ago */
+"@{{days}}.days.ago" = "{{days}}天前";
+
+/* A month ago */
+"@a.month.ago" = "一个月前";
+
+/* {{months}} months ago */
+"@{{months}}.months.ago" = "{{months}}个月前";
+
+/* A year ago */
+"@a.year.ago" = "一年前";
+
+/* {{years}} years ago */
+"@{{years}}.years.ago" = "{{years}}年前";
+
+/* In a few seconds */
+"@in.a.few.seconds" = "几秒后";
+
+/* In a minute */
+"@in.a.minute" = "一分钟后";
+
+/* In {{minutes}} minutes */
+"@in.{{minutes}}.minutes" = "{{minutes}}分钟后";
+
+/* In an hour */
+"@in.an.hour" = "一小时后";
+
+/* In {{hours}} hours */
+"@in.{{hours}}.hours" = "{{hours}}小时后";
+
+/* In a day */
+"@in.a.day" = "一天后";
+
+/* In {{days}} days */
+"@in.{{days}}.days" = "{{days}}天后";
+
+/* In a month */
+"@in.a.month" = "一个月后";
+
+/* In {{months}} months */
+"@in.{{months}}.months" = "{{months}}个月后";
+
+/* In a year */
+"@in.a.year" = "一年后";
+
+/* In {{years}} years */
+"@in.{{years}}.years" = "{{years}}年后";

@@ -1,0 +1,68 @@
+/* Just now */
+"@just.now" = "เมื่อสักครู่";
+
+/* A few seconds ago */
+"@a.few.seconds.ago" = "เมื่อสักครู่";
+
+/* A minute ago */
+"@a.minute.ago" = "เมื่อ 1 นาที";
+
+/* {{minutes}} minutes ago */
+"@{{minutes}}.minutes.ago" = "เมื่อ {{minutes}} นาที";
+
+/* An hour ago */
+"@an.hour.ago" = "เมื่อ 1 ชั่วโมง";
+
+/* {{hours}} hours ago */
+"@{{hours}}.hours.ago" = "เมื่อ {{hours}} ชั่วโมง";
+
+/* A day ago */
+"@a.day.ago" = "เมื่อ 1 วัน";
+
+/* {{days}} days ago */
+"@{{days}}.days.ago" = "เมื่อ {{days}} วัน";
+
+/* A month ago */
+"@a.month.ago" = "เมื่อ 1 เดือน";
+
+/* {{months}} months ago */
+"@{{months}}.months.ago" = "เมื่อ {{months}} เดือน";
+
+/* A year ago */
+"@a.year.ago" = "เมื่อ 1 ปี";
+
+/* {{years}} years ago */
+"@{{years}}.years.ago" = "เมื่อ {{years}} ปี";
+
+/* In a few seconds */
+"@in.a.few.seconds" = "ในอีกไม่กี่วินาที";
+
+/* In a minute */
+"@in.a.minute" = "ในอีก 1 นาที";
+
+/* In {{minutes}} minutes */
+"@in.{{minutes}}.minutes" = "ในอีก {{minutes}} นาที";
+
+/* In an hour */
+"@in.an.hour" = "ในอีก 1 ชั่วโมง";
+
+/* In {{hours}} hours */
+"@in.{{hours}}.hours" = "ในอีก {{hours}} ชั่วโมง";
+
+/* In a day */
+"@in.a.day" = "ในอีก 1 วัน";
+
+/* In {{days}} days */
+"@in.{{days}}.days" = "ในอีก {{days}} วัน";
+
+/* In a month */
+"@in.a.month" = "ในอีก 1 เดือน";
+
+/* In {{months}} months */
+"@in.{{months}}.months" = "ในอีก {{months}} เดือน";
+
+/* In a year */
+"@in.a.year" = "ในอีก 1 ปี";
+
+/* In {{years}} years */
+"@in.{{years}}.years" = "ในอีก {{years}} ปี";

@@ -1,0 +1,68 @@
+/* Just now */
+"@just.now" = "अभी ही";
+
+/* A few seconds ago */
+"@a.few.seconds.ago" = "कुछ सेकंड पहले";
+
+/* A minute ago */
+"@a.minute.ago" = "एक मिनट पहले";
+
+/* {{minutes}} minutes ago */
+"@{{minutes}}.minutes.ago" = "{{minutes}} मिनट पहले";
+
+/* An hour ago */
+"@an.hour.ago" = "एक घंटा पहले";
+
+/* {{hours}} hours ago */
+"@{{hours}}.hours.ago" = "{{hours}} घंटे पहले";
+
+/* A day ago */
+"@a.day.ago" = "एक दिन पहले";
+
+/* {{days}} days ago */
+"@{{days}}.days.ago" = "{{days}} दिन पहले";
+
+/* A month ago */
+"@a.month.ago" = "एक महीना पहले";
+
+/* {{months}} months ago */
+"@{{months}}.months.ago" = "{{months}} महीने पहले";
+
+/* A year ago */
+"@a.year.ago" = "एक साल पहले";
+
+/* {{years}} years ago */
+"@{{years}}.years.ago" = "{{years}} साल पहले";
+
+/* In a few seconds */
+"@in.a.few.seconds" = "कुछ सेकंड में";
+
+/* In a minute */
+"@in.a.minute" = "एक मिनट में";
+
+/* In {{minutes}} minutes */
+"@in.{{minutes}}.minutes" = "{{minutes}} मिनट में";
+
+/* In an hour */
+"@in.an.hour" = "एक घंटे में";
+
+/* In {{hours}} hours */
+"@in.{{hours}}.hours" = "{{hours}} घंटे में";
+
+/* In a day */
+"@in.a.day" = "एक दिन में";
+
+/* In {{days}} days */
+"@in.{{days}}.days" = "{{days}} दिन में";
+
+/* In a month */
+"@in.a.month" = "एक महीने में";
+
+/* In {{months}} months */
+"@in.{{months}}.months" = "{{months}} महीने में";
+
+/* In a year */
+"@in.a.year" = "एक साल में";
+
+/* In {{years}} years */
+"@in.{{years}}.years" = "{{years}} साल में";

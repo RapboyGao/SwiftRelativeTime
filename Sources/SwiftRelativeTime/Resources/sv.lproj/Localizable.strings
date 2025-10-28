@@ -1,0 +1,68 @@
+/* Just now */
+"@just.now" = "Just nu";
+
+/* A few seconds ago */
+"@a.few.seconds.ago" = "För några sekunder sedan";
+
+/* A minute ago */
+"@a.minute.ago" = "För en minut sedan";
+
+/* {{minutes}} minutes ago */
+"@{{minutes}}.minutes.ago" = "För {{minutes}} minuter sedan";
+
+/* An hour ago */
+"@an.hour.ago" = "För en timme sedan";
+
+/* {{hours}} hours ago */
+"@{{hours}}.hours.ago" = "För {{hours}} timmar sedan";
+
+/* A day ago */
+"@a.day.ago" = "För en dag sedan";
+
+/* {{days}} days ago */
+"@{{days}}.days.ago" = "För {{days}} dagar sedan";
+
+/* A month ago */
+"@a.month.ago" = "För en månad sedan";
+
+/* {{months}} months ago */
+"@{{months}}.months.ago" = "För {{months}} månader sedan";
+
+/* A year ago */
+"@a.year.ago" = "För ett år sedan";
+
+/* {{years}} years ago */
+"@{{years}}.years.ago" = "För {{years}} år sedan";
+
+/* In a few seconds */
+"@in.a.few.seconds" = "Om några sekunder";
+
+/* In a minute */
+"@in.a.minute" = "Om en minut";
+
+/* In {{minutes}} minutes */
+"@in.{{minutes}}.minutes" = "Om {{minutes}} minuter";
+
+/* In an hour */
+"@in.an.hour" = "Om en timme";
+
+/* In {{hours}} hours */
+"@in.{{hours}}.hours" = "Om {{hours}} timmar";
+
+/* In a day */
+"@in.a.day" = "Om en dag";
+
+/* In {{days}} days */
+"@in.{{days}}.days" = "Om {{days}} dagar";
+
+/* In a month */
+"@in.a.month" = "Om en månad";
+
+/* In {{months}} months */
+"@in.{{months}}.months" = "Om {{months}} månader";
+
+/* In a year */
+"@in.a.year" = "Om ett år";
+
+/* In {{years}} years */
+"@in.{{years}}.years" = "Om {{years}} år";

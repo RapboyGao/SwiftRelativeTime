@@ -1,0 +1,68 @@
+/* Just now */
+"@just.now" = "방금";
+
+/* A few seconds ago */
+"@a.few.seconds.ago" = "몇 초 전";
+
+/* A minute ago */
+"@a.minute.ago" = "1분 전";
+
+/* {{minutes}} minutes ago */
+"@{{minutes}}.minutes.ago" = "{{minutes}}분 전";
+
+/* An hour ago */
+"@an.hour.ago" = "1시간 전";
+
+/* {{hours}} hours ago */
+"@{{hours}}.hours.ago" = "{{hours}}시간 전";
+
+/* A day ago */
+"@a.day.ago" = "하루 전";
+
+/* {{days}} days ago */
+"@{{days}}.days.ago" = "{{days}}일 전";
+
+/* A month ago */
+"@a.month.ago" = "한 달 전";
+
+/* {{months}} months ago */
+"@{{months}}.months.ago" = "{{months}}달 전";
+
+/* A year ago */
+"@a.year.ago" = "일 년 전";
+
+/* {{years}} years ago */
+"@{{years}}.years.ago" = "{{years}}년 전";
+
+/* In a few seconds */
+"@in.a.few.seconds" = "몇 초 후";
+
+/* In a minute */
+"@in.a.minute" = "1분 후";
+
+/* In {{minutes}} minutes */
+"@in.{{minutes}}.minutes" = "{{minutes}}분 후";
+
+/* In an hour */
+"@in.an.hour" = "1시간 후";
+
+/* In {{hours}} hours */
+"@in.{{hours}}.hours" = "{{hours}}시간 후";
+
+/* In a day */
+"@in.a.day" = "하루 후";
+
+/* In {{days}} days */
+"@in.{{days}}.days" = "{{days}}일 후";
+
+/* In a month */
+"@in.a.month" = "한 달 후";
+
+/* In {{months}} months */
+"@in.{{months}}.months" = "{{months}}달 후";
+
+/* In a year */
+"@in.a.year" = "일 년 후";
+
+/* In {{years}} years */
+"@in.{{years}}.years" = "{{years}}년 후";

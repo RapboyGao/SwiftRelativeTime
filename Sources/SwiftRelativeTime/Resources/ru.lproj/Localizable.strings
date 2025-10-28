@@ -1,0 +1,68 @@
+/* Just now */
+"@just.now" = "Только что";
+
+/* A few seconds ago */
+"@a.few.seconds.ago" = "Несколько секунд назад";
+
+/* A minute ago */
+"@a.minute.ago" = "Минута назад";
+
+/* {{minutes}} minutes ago */
+"@{{minutes}}.minutes.ago" = "{{minutes}} минут назад";
+
+/* An hour ago */
+"@an.hour.ago" = "Час назад";
+
+/* {{hours}} hours ago */
+"@{{hours}}.hours.ago" = "{{hours}} часов назад";
+
+/* A day ago */
+"@a.day.ago" = "День назад";
+
+/* {{days}} days ago */
+"@{{days}}.days.ago" = "{{days}} дней назад";
+
+/* A month ago */
+"@a.month.ago" = "Месяц назад";
+
+/* {{months}} months ago */
+"@{{months}}.months.ago" = "{{months}} месяцев назад";
+
+/* A year ago */
+"@a.year.ago" = "Год назад";
+
+/* {{years}} years ago */
+"@{{years}}.years.ago" = "{{years}} лет назад";
+
+/* In a few seconds */
+"@in.a.few.seconds" = "Через несколько секунд";
+
+/* In a minute */
+"@in.a.minute" = "Через минуту";
+
+/* In {{minutes}} minutes */
+"@in.{{minutes}}.minutes" = "Через {{minutes}} минут";
+
+/* In an hour */
+"@in.an.hour" = "Через час";
+
+/* In {{hours}} hours */
+"@in.{{hours}}.hours" = "Через {{hours}} часов";
+
+/* In a day */
+"@in.a.day" = "Через день";
+
+/* In {{days}} days */
+"@in.{{days}}.days" = "Через {{days}} дней";
+
+/* In a month */
+"@in.a.month" = "Через месяц";
+
+/* In {{months}} months */
+"@in.{{months}}.months" = "Через {{months}} месяцев";
+
+/* In a year */
+"@in.a.year" = "Через год";
+
+/* In {{years}} years */
+"@in.{{years}}.years" = "Через {{years}} лет";

@@ -1,0 +1,68 @@
+/* Just now */
+"@just.now" = "Właśnie teraz";
+
+/* A few seconds ago */
+"@a.few.seconds.ago" = "Kilka sekund temu";
+
+/* A minute ago */
+"@a.minute.ago" = "Minutę temu";
+
+/* {{minutes}} minutes ago */
+"@{{minutes}}.minutes.ago" = "{{minutes}} minut temu";
+
+/* An hour ago */
+"@an.hour.ago" = "Godzinę temu";
+
+/* {{hours}} hours ago */
+"@{{hours}}.hours.ago" = "{{hours}} godzin temu";
+
+/* A day ago */
+"@a.day.ago" = "Dzień temu";
+
+/* {{days}} days ago */
+"@{{days}}.days.ago" = "{{days}} dni temu";
+
+/* A month ago */
+"@a.month.ago" = "Miesiąc temu";
+
+/* {{months}} months ago */
+"@{{months}}.months.ago" = "{{months}} miesięcy temu";
+
+/* A year ago */
+"@a.year.ago" = "Rok temu";
+
+/* {{years}} years ago */
+"@{{years}}.years.ago" = "{{years}} lat temu";
+
+/* In a few seconds */
+"@in.a.few.seconds" = "Za kilka sekund";
+
+/* In a minute */
+"@in.a.minute" = "Za minutę";
+
+/* In {{minutes}} minutes */
+"@in.{{minutes}}.minutes" = "Za {{minutes}} minut";
+
+/* In an hour */
+"@in.an.hour" = "Za godzinę";
+
+/* In {{hours}} hours */
+"@in.{{hours}}.hours" = "Za {{hours}} godzin";
+
+/* In a day */
+"@in.a.day" = "Za dzień";
+
+/* In {{days}} days */
+"@in.{{days}}.days" = "Za {{days}} dni";
+
+/* In a month */
+"@in.a.month" = "Za miesiąc";
+
+/* In {{months}} months */
+"@in.{{months}}.months" = "Za {{months}} miesięcy";
+
+/* In a year */
+"@in.a.year" = "Za rok";
+
+/* In {{years}} years */
+"@in.{{years}}.years" = "Za {{years}} lat";

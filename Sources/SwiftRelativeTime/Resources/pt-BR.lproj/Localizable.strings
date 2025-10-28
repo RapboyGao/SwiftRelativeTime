@@ -1,0 +1,68 @@
+/* Just now */
+"@just.now" = "Agora mesmo";
+
+/* A few seconds ago */
+"@a.few.seconds.ago" = "Há alguns segundos";
+
+/* A minute ago */
+"@a.minute.ago" = "Há um minuto";
+
+/* {{minutes}} minutes ago */
+"@{{minutes}}.minutes.ago" = "Há {{minutes}} minutos";
+
+/* An hour ago */
+"@an.hour.ago" = "Há uma hora";
+
+/* {{hours}} hours ago */
+"@{{hours}}.hours.ago" = "Há {{hours}} horas";
+
+/* A day ago */
+"@a.day.ago" = "Há um dia";
+
+/* {{days}} days ago */
+"@{{days}}.days.ago" = "Há {{days}} dias";
+
+/* A month ago */
+"@a.month.ago" = "Há um mês";
+
+/* {{months}} months ago */
+"@{{months}}.months.ago" = "Há {{months}} meses";
+
+/* A year ago */
+"@a.year.ago" = "Há um ano";
+
+/* {{years}} years ago */
+"@{{years}}.years.ago" = "Há {{years}} anos";
+
+/* In a few seconds */
+"@in.a.few.seconds" = "Em alguns segundos";
+
+/* In a minute */
+"@in.a.minute" = "Em um minuto";
+
+/* In {{minutes}} minutes */
+"@in.{{minutes}}.minutes" = "Em {{minutes}} minutos";
+
+/* In an hour */
+"@in.an.hour" = "Em uma hora";
+
+/* In {{hours}} hours */
+"@in.{{hours}}.hours" = "Em {{hours}} horas";
+
+/* In a day */
+"@in.a.day" = "Em um dia";
+
+/* In {{days}} days */
+"@in.{{days}}.days" = "Em {{days}} dias";
+
+/* In a month */
+"@in.a.month" = "Em um mês";
+
+/* In {{months}} months */
+"@in.{{months}}.months" = "Em {{months}} meses";
+
+/* In a year */
+"@in.a.year" = "Em um ano";
+
+/* In {{years}} years */
+"@in.{{years}}.years" = "Em {{years}} anos";

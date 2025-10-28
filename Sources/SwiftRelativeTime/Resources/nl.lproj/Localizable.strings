@@ -1,0 +1,68 @@
+/* Just now */
+"@just.now" = "Juist nu";
+
+/* A few seconds ago */
+"@a.few.seconds.ago" = "Een paar seconden geleden";
+
+/* A minute ago */
+"@a.minute.ago" = "Een minuut geleden";
+
+/* {{minutes}} minutes ago */
+"@{{minutes}}.minutes.ago" = "{{minutes}} minuten geleden";
+
+/* An hour ago */
+"@an.hour.ago" = "Een uur geleden";
+
+/* {{hours}} hours ago */
+"@{{hours}}.hours.ago" = "{{hours}} uur geleden";
+
+/* A day ago */
+"@a.day.ago" = "Een dag geleden";
+
+/* {{days}} days ago */
+"@{{days}}.days.ago" = "{{days}} dagen geleden";
+
+/* A month ago */
+"@a.month.ago" = "Een maand geleden";
+
+/* {{months}} months ago */
+"@{{months}}.months.ago" = "{{months}} maanden geleden";
+
+/* A year ago */
+"@a.year.ago" = "Een jaar geleden";
+
+/* {{years}} years ago */
+"@{{years}}.years.ago" = "{{years}} jaar geleden";
+
+/* In a few seconds */
+"@in.a.few.seconds" = "Binnen enkele seconden";
+
+/* In a minute */
+"@in.a.minute" = "Binnen een minuut";
+
+/* In {{minutes}} minutes */
+"@in.{{minutes}}.minutes" = "Binnen {{minutes}} minuten";
+
+/* In an hour */
+"@in.an.hour" = "Binnen een uur";
+
+/* In {{hours}} hours */
+"@in.{{hours}}.hours" = "Binnen {{hours}} uur";
+
+/* In a day */
+"@in.a.day" = "Binnen een dag";
+
+/* In {{days}} days */
+"@in.{{days}}.days" = "Binnen {{days}} dagen";
+
+/* In a month */
+"@in.a.month" = "Binnen een maand";
+
+/* In {{months}} months */
+"@in.{{months}}.months" = "Binnen {{months}} maanden";
+
+/* In a year */
+"@in.a.year" = "Binnen een jaar";
+
+/* In {{years}} years */
+"@in.{{years}}.years" = "Binnen {{years}} jaar";

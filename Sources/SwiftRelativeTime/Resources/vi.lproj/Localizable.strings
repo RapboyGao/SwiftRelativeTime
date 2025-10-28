@@ -1,0 +1,68 @@
+/* Just now */
+"@just.now" = "Vừa xong";
+
+/* A few seconds ago */
+"@a.few.seconds.ago" = "Vài giây trước";
+
+/* A minute ago */
+"@a.minute.ago" = "Một phút trước";
+
+/* {{minutes}} minutes ago */
+"@{{minutes}}.minutes.ago" = "{{minutes}} phút trước";
+
+/* An hour ago */
+"@an.hour.ago" = "Một giờ trước";
+
+/* {{hours}} hours ago */
+"@{{hours}}.hours.ago" = "{{hours}} giờ trước";
+
+/* A day ago */
+"@a.day.ago" = "Một ngày trước";
+
+/* {{days}} days ago */
+"@{{days}}.days.ago" = "{{days}} ngày trước";
+
+/* A month ago */
+"@a.month.ago" = "Một tháng trước";
+
+/* {{months}} months ago */
+"@{{months}}.months.ago" = "{{months}} tháng trước";
+
+/* A year ago */
+"@a.year.ago" = "Một năm trước";
+
+/* {{years}} years ago */
+"@{{years}}.years.ago" = "{{years}} năm trước";
+
+/* In a few seconds */
+"@in.a.few.seconds" = "Trong vài giây";
+
+/* In a minute */
+"@in.a.minute" = "Trong một phút";
+
+/* In {{minutes}} minutes */
+"@in.{{minutes}}.minutes" = "Trong {{minutes}} phút";
+
+/* In an hour */
+"@in.an.hour" = "Trong một giờ";
+
+/* In {{hours}} hours */
+"@in.{{hours}}.hours" = "Trong {{hours}} giờ";
+
+/* In a day */
+"@in.a.day" = "Trong một ngày";
+
+/* In {{days}} days */
+"@in.{{days}}.days" = "Trong {{days}} ngày";
+
+/* In a month */
+"@in.a.month" = "Trong một tháng";
+
+/* In {{months}} months */
+"@in.{{months}}.months" = "Trong {{months}} tháng";
+
+/* In a year */
+"@in.a.year" = "Trong một năm";
+
+/* In {{years}} years */
+"@in.{{years}}.years" = "Trong {{years}} năm";

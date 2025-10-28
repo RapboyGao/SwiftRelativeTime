@@ -1,0 +1,68 @@
+/* Just now */
+"@just.now" = "Az önce";
+
+/* A few seconds ago */
+"@a.few.seconds.ago" = "Birkaç saniye önce";
+
+/* A minute ago */
+"@a.minute.ago" = "Bir dakika önce";
+
+/* {{minutes}} minutes ago */
+"@{{minutes}}.minutes.ago" = "{{minutes}} dakika önce";
+
+/* An hour ago */
+"@an.hour.ago" = "Bir saat önce";
+
+/* {{hours}} hours ago */
+"@{{hours}}.hours.ago" = "{{hours}} saat önce";
+
+/* A day ago */
+"@a.day.ago" = "Bir gün önce";
+
+/* {{days}} days ago */
+"@{{days}}.days.ago" = "{{days}} gün önce";
+
+/* A month ago */
+"@a.month.ago" = "Bir ay önce";
+
+/* {{months}} months ago */
+"@{{months}}.months.ago" = "{{months}} ay önce";
+
+/* A year ago */
+"@a.year.ago" = "Bir yıl önce";
+
+/* {{years}} years ago */
+"@{{years}}.years.ago" = "{{years}} yıl önce";
+
+/* In a few seconds */
+"@in.a.few.seconds" = "Birkaç saniye içinde";
+
+/* In a minute */
+"@in.a.minute" = "Bir dakika içinde";
+
+/* In {{minutes}} minutes */
+"@in.{{minutes}}.minutes" = "{{minutes}} dakika içinde";
+
+/* In an hour */
+"@in.an.hour" = "Bir saat içinde";
+
+/* In {{hours}} hours */
+"@in.{{hours}}.hours" = "{{hours}} saat içinde";
+
+/* In a day */
+"@in.a.day" = "Bir gün içinde";
+
+/* In {{days}} days */
+"@in.{{days}}.days" = "{{days}} gün içinde";
+
+/* In a month */
+"@in.a.month" = "Bir ay içinde";
+
+/* In {{months}} months */
+"@in.{{months}}.months" = "{{months}} ay içinde";
+
+/* In a year */
+"@in.a.year" = "Bir yıl içinde";
+
+/* In {{years}} years */
+"@in.{{years}}.years" = "{{years}} yıl içinde";

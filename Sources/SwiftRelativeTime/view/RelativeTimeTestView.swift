@@ -6,7 +6,7 @@ import SwiftUI
 
     @available(iOS 16, *)
     struct RelativeTimeTestView: View {
-        @State private var selectedLanguage: String = "en"
+        @State private var selectedLanguage: String = "zh-Hans"
         @State private var comparisonDate: Date = .init()
         @State private var nowDate: Date = .init()
 

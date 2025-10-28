@@ -28,9 +28,9 @@ import SwiftUI
             }
             let languageBundles =
                 contents
-                    .filter { $0.hasSuffix(".lproj") }
-                    .map { $0.replacingOccurrences(of: ".lproj", with: "") }
-                    .sorted()
+                .filter { $0.hasSuffix(".lproj") }
+                .map { $0.replacingOccurrences(of: ".lproj", with: "") }
+                .sorted()
             return languageBundles
         }()
 
@@ -97,7 +97,14 @@ import SwiftUI
                         Spacer()
                         Text(nowDate.ISO8601Format())
                     }
-                    Text(SwiftRelativeTime(comparisonDate, now: nowDate).localized(in: selectedLanguage))
+                    VStack(alignment: .center) {
+                        Text(
+                            SwiftRelativeTime(comparisonDate, now: nowDate).localized(
+                                in: selectedLanguage)
+                        )
+                        .font(.title)
+                        .padding()
+                    }
                 }
             }
             .onReceive(timer) { newTime in

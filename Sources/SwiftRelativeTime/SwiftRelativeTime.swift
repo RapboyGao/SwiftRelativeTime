@@ -279,13 +279,14 @@ public enum SwiftRelativeTime: Codable, Sendable, Hashable, CustomStringConverti
     }
 
     public func localized(in languageBundle: String) -> String {
-        guard let bundlePath = Bundle.module.resourcePath else {
+        guard let moduleBundlePath = Bundle.module.resourcePath else {
             return description
         }
-        let languageBundlePath = "\(bundlePath)/\(languageBundle)"
+        let languageBundlePath = "\(moduleBundlePath)/\(languageBundle).lproj"
         guard let langBundle = Bundle(path: languageBundlePath) else {
             return description
         }
+        langBundle.load()
         return NSLocalizedString(
             description, tableName: nil, bundle: langBundle, value: "", comment: "")
     }

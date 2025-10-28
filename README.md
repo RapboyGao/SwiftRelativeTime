@@ -1,5 +1,13 @@
 # 🕒 SwiftRelativeTime
 
+## 📚 多语言支持 | Multilingual Support
+
+- 🇬🇧 [English (默认)](#)
+- 🇨🇳 [中文](./README-zh.md)
+- 🇪🇸 [Español](./README-es.md)
+- 🇯🇵 [日本語](./README-ja.md)
+- 🇰🇷 [한국어](./README-ko.md)
+
 [![](https://img.shields.io/badge/Swift-6.0-FFAC45.svg)](https://swift.org/)
 [![](https://img.shields.io/badge/platform-iOS%20%7C%20macOS%20%7C%20watchOS%20%7C%20tvOS-blue.svg)](https://github.com/RapboyGao/SwiftRelativeTime)
 [![](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/RapboyGao/SwiftRelativeTime/blob/main/LICENSE)

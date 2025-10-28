@@ -102,44 +102,174 @@ enum I18n {
         keyForInYears,
     ]
 
-    public static func localizedString(minutes: Int) -> String {
-        minutesAgo.replacingOccurrences(of: "{{minutes}}", with: "\(minutes)")
+    public static func languageBundle(language: String? = nil) -> Bundle {
+        guard let language = language else {
+            return .module
+        }
+        let bundlePath = Bundle.module.resourcePath!
+        let languageBundlePath = "\(bundlePath)/\(language)"
+        return Bundle(path: languageBundlePath) ?? .module
     }
 
-    public static func localizedString(hours: Int) -> String {
-        hoursAgo.replacingOccurrences(of: "{{hours}}", with: "\(hours)")
+    public static func localizedJustNow(in language: String? = nil) -> String {
+        let bundle = languageBundle(language: language)
+        return NSLocalizedString(
+            keyForJustNow, tableName: nil, bundle: bundle, value: "", comment: ""
+        )
     }
 
-    public static func localizedString(days: Int) -> String {
-        daysAgo.replacingOccurrences(of: "{{days}}", with: "\(days)")
+    public static func localizedSecondsAgo(in language: String? = nil) -> String {
+        let bundle = languageBundle(language: language)
+        return NSLocalizedString(
+            keyForAFewSecondsAgo, tableName: nil, bundle: bundle, value: "", comment: ""
+        )
     }
 
-    public static func localizedString(months: Int) -> String {
-        monthsAgo.replacingOccurrences(of: "{{months}}", with: "\(months)")
+    public static func localizedInAFewSeconds(in language: String? = nil) -> String {
+        let bundle = languageBundle(language: language)
+        return NSLocalizedString(
+            keyForInAFewSeconds, tableName: nil, bundle: bundle, value: "", comment: ""
+        )
     }
 
-    public static func localizedString(years: Int) -> String {
-        yearsAgo.replacingOccurrences(of: "{{years}}", with: "\(years)")
+    public static func localizedString(minutes: Int, in language: String? = nil) -> String {
+        let bundle = languageBundle(language: language)
+        if minutes == 1 {
+            return NSLocalizedString(
+                keyForInAMinute, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+        } else {
+            return NSLocalizedString(
+                keyForMinutesAgo, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+            .replacingOccurrences(of: "{{minutes}}", with: "\(minutes)")
+        }
+    }
+
+    public static func localizedString(hours: Int, in language: String? = nil) -> String {
+        let bundle = languageBundle(language: language)
+        if hours == 1 {
+            return NSLocalizedString(
+                keyForInAnHour, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+        } else {
+            return NSLocalizedString(
+                keyForHoursAgo, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+            .replacingOccurrences(of: "{{hours}}", with: "\(hours)")
+        }
+    }
+
+    public static func localizedString(days: Int, in language: String? = nil) -> String {
+        let bundle = languageBundle(language: language)
+        if days == 1 {
+            return NSLocalizedString(
+                keyForInADay, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+        } else {
+            return NSLocalizedString(
+                keyForDaysAgo, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+            .replacingOccurrences(of: "{{days}}", with: "\(days)")
+        }
+    }
+
+    public static func localizedString(months: Int, in language: String? = nil) -> String {
+        let bundle = languageBundle(language: language)
+        if months == 1 {
+            return NSLocalizedString(
+                keyForInAMonth, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+        } else {
+            return NSLocalizedString(
+                keyForMonthsAgo, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+            .replacingOccurrences(of: "{{months}}", with: "\(months)")
+        }
+    }
+
+    public static func localizedString(years: Int, in language: String? = nil) -> String {
+        let bundle = languageBundle(language: language)
+        if years == 1 {
+            return NSLocalizedString(
+                keyForInAYear, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+        } else {
+            return NSLocalizedString(
+                keyForYearsAgo, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+            .replacingOccurrences(of: "{{years}}", with: "\(years)")
+        }
     }
 
     // 未来时间的本地化方法
-    public static func localizedString(inMinutes: Int) -> String {
-        I18n.inMinutes.replacingOccurrences(of: "{{minutes}}", with: "\(inMinutes)")
+    public static func localizedString(inMinutes: Int, in language: String? = nil) -> String {
+        let bundle = languageBundle(language: language)
+        if inMinutes == 1 {
+            return NSLocalizedString(
+                keyForInAMinute, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+        } else {
+            return NSLocalizedString(
+                keyForInMinutes, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+            .replacingOccurrences(of: "{{minutes}}", with: "\(inMinutes)")
+        }
     }
 
-    public static func localizedString(inHours: Int) -> String {
-        I18n.inHours.replacingOccurrences(of: "{{hours}}", with: "\(inHours)")
+    public static func localizedString(inHours: Int, in language: String? = nil) -> String {
+        let bundle = languageBundle(language: language)
+        if inHours == 1 {
+            return NSLocalizedString(
+                keyForInAnHour, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+        } else {
+            return NSLocalizedString(
+                keyForInHours, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+            .replacingOccurrences(of: "{{hours}}", with: "\(inHours)")
+        }
     }
 
-    public static func localizedString(inDays: Int) -> String {
-        I18n.inDays.replacingOccurrences(of: "{{days}}", with: "\(inDays)")
+    public static func localizedString(inDays: Int, in language: String? = nil) -> String {
+        let bundle = languageBundle(language: language)
+        if inDays == 1 {
+            return NSLocalizedString(
+                keyForInADay, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+        } else {
+            return NSLocalizedString(
+                keyForInDays, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+            .replacingOccurrences(of: "{{days}}", with: "\(inDays)")
+        }
     }
 
-    public static func localizedString(inMonths: Int) -> String {
-        I18n.inMonths.replacingOccurrences(of: "{{months}}", with: "\(inMonths)")
+    public static func localizedString(inMonths: Int, in language: String? = nil) -> String {
+        let bundle = languageBundle(language: language)
+        if inMonths == 1 {
+            return NSLocalizedString(
+                keyForInAMonth, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+        } else {
+            return NSLocalizedString(
+                keyForInMonths, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+            .replacingOccurrences(of: "{{months}}", with: "\(inMonths)")
+        }
     }
 
-    public static func localizedString(inYears: Int) -> String {
-        I18n.inYears.replacingOccurrences(of: "{{years}}", with: "\(inYears)")
+    public static func localizedString(inYears: Int, in language: String? = nil) -> String {
+        let bundle = languageBundle(language: language)
+        if inYears == 1 {
+            return NSLocalizedString(
+                keyForInAYear, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+        } else {
+            return NSLocalizedString(
+                keyForInYears, tableName: nil, bundle: bundle, value: "", comment: ""
+            )
+            .replacingOccurrences(of: "{{years}}", with: "\(inYears)")
+        }
     }
 }

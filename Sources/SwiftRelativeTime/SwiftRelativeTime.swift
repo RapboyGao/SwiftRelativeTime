@@ -234,60 +234,98 @@ public enum SwiftRelativeTime: Codable, Sendable, Hashable, CustomStringConverti
         case .aFewSecondsAgo:
             return I18n.aFewSecondsAgo
         case .aMinuteAgo:
-            return I18n.aMinuteAgo
+            return I18n.localizedString(minutes: 1)
         case .minutesAgo(let minutes):
             return I18n.localizedString(minutes: minutes)
         case .anHourAgo:
-            return I18n.anHourAgo
+            return I18n.localizedString(hours: 1)
         case .hoursAgo(let hours):
             return I18n.localizedString(hours: hours)
         case .aDayAgo:
-            return I18n.aDayAgo
+            return I18n.localizedString(days: 1)
         case .daysAgo(let days):
             return I18n.localizedString(days: days)
         case .aMonthAgo:
-            return I18n.aMonthAgo
+            return I18n.localizedString(months: 1)
         case .monthsAgo(let months):
             return I18n.localizedString(months: months)
         case .aYearAgo:
-            return I18n.aYearAgo
+            return I18n.localizedString(years: 1)
         case .yearsAgo(let years):
             return I18n.localizedString(years: years)
         case .inAFewSeconds:
             return I18n.inAFewSeconds
         case .inAMinute:
-            return I18n.inAMinute
+            return I18n.localizedString(inMinutes: 1)
         case .inMinutes(let minutes):
             return I18n.localizedString(inMinutes: minutes)
         case .inAnHour:
-            return I18n.inAnHour
+            return I18n.localizedString(inHours: 1)
         case .inHours(let hours):
             return I18n.localizedString(inHours: hours)
         case .inADay:
-            return I18n.inADay
+            return I18n.localizedString(inDays: 1)
         case .inDays(let days):
             return I18n.localizedString(inDays: days)
         case .inAMonth:
-            return I18n.inAMonth
+            return I18n.localizedString(inMonths: 1)
         case .inMonths(let months):
             return I18n.localizedString(inMonths: months)
         case .inAYear:
-            return I18n.inAYear
+            return I18n.localizedString(inYears: 1)
         case .inYears(let years):
             return I18n.localizedString(inYears: years)
         }
     }
 
-    public func localized(in languageBundle: String) -> String {
-        guard let moduleBundlePath = Bundle.module.resourcePath else {
-            return description
+    public func localized(in languageID: String) -> String {
+        switch self {
+        case .justNow:
+            return I18n.localizedJustNow(in: languageID)
+        case .aFewSecondsAgo:
+            return I18n.localizedSecondsAgo(in: languageID)
+        case .aMinuteAgo:
+            return I18n.localizedString(minutes: 1, in: languageID)
+        case .minutesAgo(let minutes):
+            return I18n.localizedString(minutes: minutes, in: languageID)
+        case .anHourAgo:
+            return I18n.localizedString(hours: 1, in: languageID)
+        case .hoursAgo(let hours):
+            return I18n.localizedString(hours: hours, in: languageID)
+        case .aDayAgo:
+            return I18n.localizedString(days: 1, in: languageID)
+        case .daysAgo(let days):
+            return I18n.localizedString(days: days, in: languageID)
+        case .aMonthAgo:
+            return I18n.localizedString(months: 1, in: languageID)
+        case .monthsAgo(let months):
+            return I18n.localizedString(months: months, in: languageID)
+        case .aYearAgo:
+            return I18n.localizedString(years: 1, in: languageID)
+        case .yearsAgo(let years):
+            return I18n.localizedString(years: years, in: languageID)
+        case .inAFewSeconds:
+            return I18n.localizedInAFewSeconds(in: languageID)
+        case .inAMinute:
+            return I18n.localizedString(inMinutes: 1, in: languageID)
+        case .inMinutes(let minutes):
+            return I18n.localizedString(inMinutes: minutes, in: languageID)
+        case .inAnHour:
+            return I18n.localizedString(inHours: 1, in: languageID)
+        case .inHours(let hours):
+            return I18n.localizedString(inHours: hours, in: languageID)
+        case .inADay:
+            return I18n.localizedString(inDays: 1, in: languageID)
+        case .inDays(let days):
+            return I18n.localizedString(inDays: days, in: languageID)
+        case .inAMonth:
+            return I18n.localizedString(inMonths: 1, in: languageID)
+        case .inMonths(let months):
+            return I18n.localizedString(inMonths: months, in: languageID)
+        case .inAYear:
+            return I18n.localizedString(inYears: 1, in: languageID)
+        case .inYears(let years):
+            return I18n.localizedString(inYears: years, in: languageID)
         }
-        let languageBundlePath = "\(moduleBundlePath)/\(languageBundle).lproj"
-        guard let langBundle = Bundle(path: languageBundlePath) else {
-            return description
-        }
-        langBundle.load()
-        return NSLocalizedString(
-            description, tableName: nil, bundle: langBundle, value: "", comment: "")
     }
 }
